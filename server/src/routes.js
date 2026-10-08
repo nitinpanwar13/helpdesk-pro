@@ -1,0 +1,1 @@
+import authRoutes from './routes/authRoutes.js';import ticketRoutes from './routes/ticketRoutes.js';export function registerRoutes(app){app.use('/api/auth',authRoutes);app.use('/api/tickets',ticketRoutes)}
